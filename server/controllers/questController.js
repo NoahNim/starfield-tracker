@@ -1,4 +1,4 @@
-const Quest = require('../db/models/quest');
+const Quest = require('../db/models');
 
 exports.createQuest = async (req, res) => {
     try {
